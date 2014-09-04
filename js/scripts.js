@@ -73,4 +73,8 @@ $(document).ready(function() {
     owl.trigger('owl.stop');
   })
 
+  $("#storm-troopers").owlCarousel({
+    jsonPath : "json/data.json"
+  });
+
 });
