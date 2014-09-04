@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 
-  $("#owl-demo").owlCarousel({
+  $("#the-force").owlCarousel({
 
       navigation: true,
        navigationText: [
@@ -11,7 +11,11 @@ $(document).ready(function() {
         ], // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
-      singleItem:true
+      singleItem:true,
+      responsive: true,
+      pagination : false,
+      autoPlay : false,
+      stopOnHover : false,
 
       // "singleItem:true" is a shortcut for:
       // items : 1,
@@ -23,7 +27,7 @@ $(document).ready(function() {
   });
 
 
-	$("#slideshow").owlCarousel({
+	$("#rebel-alliance").owlCarousel({
 
       navigation: true,
 	     navigationText: [
@@ -33,7 +37,8 @@ $(document).ready(function() {
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true,
-      responsive: true
+      responsive: true,
+      pagination : true
 
       // "singleItem:true" is a shortcut for:
       // items : 1,

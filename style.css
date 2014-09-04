@@ -23,15 +23,15 @@ h1, h2, h3, h4, h5{
   font-weight: 100;
 }
 
-#owl-demo .item img{
+.medium-box{
+  width: 940px;
+  margin: 0 auto;
+}
+
+#the-force .item img{
     display: block;
     width: 100%;
     height: auto;
-}
-
-.box-2{
-  width: 940px;
-  margin: 0 auto;
 }
 
 .owl-next, .owl-prev {
@@ -66,4 +66,29 @@ h1, h2, h3, h4, h5{
   margin: 0;
   padding: 0;
   font-size: 13px;
+}
+
+
+/*Media Queries*/
+
+@media (max-width:767px){
+  .medium-box{
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px){
+  .medium-box{
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px){
+  .medium-box{
+    width: 940px;
+  }
+}
+
+@media (min-width:1200px){
+
 }
