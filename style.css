@@ -1,0 +1,53 @@
+/*Jedi Slider*/
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  color: #565656;
+}
+
+h1, h2, h3, h4, h5{
+  color: #333;
+}
+
+.js-text{
+  text-align: center;
+  font-size: 3em;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.box-2{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.owl-next, .owl-prev {
+  position: absolute;
+  top: 50%;
+  margin-top: -28px !important;
+  background: none;
+  border: 2px solid;
+  width: 56px;
+  height: 56px;
+}
+
+.owl-prev {
+  left: 20px;
+}
+
+.owl-prev i {
+  margin-right: 4px;
+}
+
+.owl-next {
+  right: 20px;
+}
+
+.owl-next i {
+  margin-left: 4px;
+}
