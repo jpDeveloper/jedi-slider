@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5{
 }
 
 /*Storm Troopers JSON example*/
-#storm-troppers .item{
+#storm-troopers .item{
   background: #a1def8;
   padding: 30px 0px;
   display: block;
@@ -105,6 +105,16 @@ h1, h2, h3, h4, h5{
   -moz-border-radius: 3px;
   border-radius: 3px;
   text-align: center;
+}
+
+/*Snowtroopers Example - Content with images*/
+#snowtroopers .item{
+  margin: 3px;
+}
+#snowtroopers .item img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /*Media Queries*/

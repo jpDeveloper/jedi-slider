@@ -73,8 +73,20 @@ $(document).ready(function() {
     owl.trigger('owl.stop');
   })
 
+  // Dynamic Content via JSON
   $("#storm-troopers").owlCarousel({
     jsonPath : "json/data.json"
+  });
+
+  // Content with images
+  $("#snowtroopers").owlCarousel({
+
+      autoPlay: 7000, //Set AutoPlay to 3 seconds
+
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+
   });
 
 });
