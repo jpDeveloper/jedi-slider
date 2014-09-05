@@ -81,4 +81,20 @@ $(document).ready(function() {
   console.log('Jedi Sliders in Action');
 >>>>>>> origin/master
 
+
+  // JSON slider
+  $("#storm-troopers").owlCarousel({
+    jsonPath : "json/data.json"
+  });
+
+  // Content with images Slider
+  $("#snowtroopers").owlCarousel({
+
+      autoPlay: false, //Set AutoPlay to 3 seconds
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+
+  });
+
 });
