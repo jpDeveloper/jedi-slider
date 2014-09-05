@@ -73,8 +73,12 @@ $(document).ready(function() {
     owl.trigger('owl.stop');
   })
 
+<<<<<<< HEAD
   $("#storm-troopers").owlCarousel({
     jsonPath : "json/data.json"
   });
+=======
+  console.log('Jedi Sliders in Action');
+>>>>>>> origin/master
 
 });
