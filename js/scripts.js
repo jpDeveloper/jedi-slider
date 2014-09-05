@@ -73,4 +73,6 @@ $(document).ready(function() {
     owl.trigger('owl.stop');
   })
 
+  console.log('Jedi Sliders in Action');
+
 });
